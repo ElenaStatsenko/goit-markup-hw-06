@@ -42,7 +42,7 @@
 <main>
 <section class="hero">
 <H1 class="hero-title">Effective Solutions for Your Business</H1>
-<button class="button-primary"  data-modal-open>Order Service</button>
+<button class="button hero-button"  data-modal-open>Order Service</button>
 </section>
     </header>
     
@@ -355,6 +355,19 @@
             </li>
         </ul>   
     </div>
+    <div class="email-input">
+        <p class="social-title">Subscribe</p>
+        <div class="subscribe">
+            <label class="section-form-label">
+                    <input type="name" class="form-input-footer" name="name" placeholder="E-mail">
+            </label>
+            <button type="submit" class="button footer-button">Subscribe
+                <svg class="footer-picture" width="24px" height="24px">
+                    <use href="./images/symbol-defs.svg#icon-pointer"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
 </div>
 <!-- модальное окно -->
 
@@ -365,6 +378,61 @@
                 <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
         </button>
+        <p class="form-text">Leave your contacts and we will call you back</p>
+        <form class="form">
+            <div class="form-field">
+                <label class="form-label">
+                    Name
+                    <div class="svg-position">
+                        <svg class="form-input-pictures" width="18px" height="18px">
+                            <use href="./images/symbol-defs.svg#icon-person"></use>
+                        </svg>
+                        <input type="name" class="form-input" name="name" placeholder=" ">
+                    </div>
+                </label>
+            </div>
+            <div class="form-field">
+                <label class="form-label">
+                    Phone
+                    <div class="svg-position">
+                        <svg class="form-input-pictures" width="18px" height="18px">
+                            <use href="./images/symbol-defs.svg#icon-phone"></use>
+                        </svg>
+                        <input type="phone" class="form-input" name="phone" placeholder=" ">
+                    </div>
+                </label>
+            </div>
+            <div class="form-field">
+                <label class="form-label">
+                    Email
+                    <div class="svg-position">
+                        <svg class="form-input-pictures" width="18px" height="18px">
+                            <use href="./images/symbol-defs.svg#icon-email"></use>
+                        </svg>
+                        <input type="email" class="form-input" name="email" placeholder=" ">
+                    </div>
+                </label>
+            </div> 
+            <div class="form-field">
+                <p class="textarea-title">Comment</p>
+                <div class="textarea-block">
+                <textarea name="Comment" class="textarea-title-small" rows="5" placeholder="Text input">Text input</textarea>
+                </div>
+            </div>
+            <div class="checkbox-field">
+                <label class="checkbox-label">
+                    <input type="checkbox" class="checkbox-input" name="policy" value="I accept the terms and conditions of the Privacy Policy">
+                        <svg class="checkbox-input-pictures" width="16px" height="16px">
+                            <use href="./images/symbol-defs.svg#icon-Checkbox"></use>
+                        </svg>
+                        <span class="checkbox-text">I accept the terms and conditions of the 
+                            <a href="#">Privacy Policy</a>
+                        </span> 
+                </label>
+            </div>
+            <button type="submit" class="button modal-button">Send</button>
+        </div>
+    </form>
     </div>
 </div>
 </footer>
